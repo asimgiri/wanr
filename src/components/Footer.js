@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-ro
 
 export default function Footer() {
     return (
-        <Router>
             <section className="footer center">
                 <div className="container">
                     <ul className="spacing">
@@ -30,10 +29,9 @@ export default function Footer() {
                     <p className="subtitle spacing_two">Made<br />in<br />Düsseldorf</p>
 
                     <span>© 2019 Wanr</span>
-
+        
                 </div>
 
             </section>
-        </Router>
     )
 }
