@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function HeaderTwo() {
     return (
         <div className="header_two spacing">
             <div className="logo_colored" width="100%" height="100%">
-                <img src={require('../assets/logo.png')} alt="" width="80"/>
+                <Link to="/">
+                    <img src={require('../assets/logo.png')} alt="" width="80" />
+                </Link>
             </div>
             <div>
                 <ul>
